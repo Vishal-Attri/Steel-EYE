@@ -9,7 +9,7 @@
      (4). In "WrappedSingleListItem" component we are not referencing the function to onClick, instead we are calling that function.
      (5). In "WrappedListComponent" we have to pass the comparison of selectedIndex and element index , not only index.
      
-     3. Fixed Code : 
+3. Fixed Code : 
 import React, { useState, useEffect, memo } from "react";
 import PropTypes from "prop-types";
 
